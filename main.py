@@ -6,9 +6,7 @@ app = FastAPI()
 
 @app.get("/")
 async def root():
-    return {"message": "Simple API"}
-
-
+    return {"message": "Simple API!!!"}
 
 @app.get("/ep-1")
 async def root():
